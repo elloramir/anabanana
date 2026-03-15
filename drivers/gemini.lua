@@ -17,6 +17,7 @@ function gemini.ask(str_qst, line)
 		local txt_resp = data.candidates[1].content.parts[1].text
 
 		line:set_content(txt_resp)
+		line:set_status("completed")
 		coroutine.yield()
 	end)
 end
