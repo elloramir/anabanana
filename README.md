@@ -1,0 +1,2 @@
+### General (for now)
+Type `set api_key {your key goes here}` to start using it. It uses Gemini as the default driver, but it would be nice to have more models and features. For now, it is just a Saturday project.
